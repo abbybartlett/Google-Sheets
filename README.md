@@ -1,15 +1,15 @@
 # Google-Sheets
 Google Apps Scripts I've written to aid with my work in Google Sheets
 
-- arrange.js is a custom Google Apps Script I created in 2017 to programatically organize, manipulate and apply formatting to a weekly data report that I managaed and maintained to monitor usage and performance of the 200+ native mobile applications I was working on the time at Hopscotch (RIP).
+- [`arrange.js`](/arrange.js) is a custom Google Apps Script I created in 2017 to programatically organize, manipulate and apply formatting to a weekly data report that I managaed and maintained to monitor usage and performance of the 200+ native mobile applications I was working on the time at Hopscotch (RIP).
 - This scrpit transforms a raw data table in CSV format into an informative and visually appealing report built in Google Sheets. We would then distribute these polished reports to our customer success team to share and review with our clients.
+- - - example of how the data was exported from our database: https://docs.google.com/spreadsheets/d/1DU60xgTVLqvXHi0GT9zNrwBMT2eKHGol5f9ArFmH7r8/edit?gid=1576233508#gid=1576233508 
 - i think i was improving the script here: ***Arrange Template (standalone)**:  https://script.google.com/home/projects/1J3Ln44TEfS3qRURHBj6QONHMs44n7xtExMenY_gExdyvoDvZsu2TFD2L/edit 
 
 Realted Documents
-- example of how the data was exported from our database: https://docs.google.com/spreadsheets/d/1DU60xgTVLqvXHi0GT9zNrwBMT2eKHGol5f9ArFmH7r8/edit?gid=1576233508#gid=1576233508 
 - UsageReport TEMPLATE: https://docs.google.com/spreadsheets/d/1rpIvHN0vKI8_cYb7CxQDcAFij170csIinrfzoI2gLr0/edit?usp=sharing
-- in the UsageReport, open **Extensions** > **Apps Script** to find the `code.gs` script that imports `arrange.js` from GitHub into Google Apps Script
-- - I have `code.gs` bound to the UsageReport TEMPLATE -- im not sure if this is the best method, but it always worked for me.
+- in the UsageReport, open **Extensions** > **Apps Script** to find the `code.gs` script that imports - [`arrange.js`](/arrange.js) from GitHub into Google Apps Script
+- - I have `code.gs` bound to the **UsageReport TEMPLATE** -- im not sure if this is the best method, but it always worked for me.
 
 `code.gs` script:
 
